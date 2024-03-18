@@ -1,2 +1,1 @@
-# android_device_msft_tesla
-Android Device Tree for the Lumia 830
+# Android Device Tree for the Lumia 830
