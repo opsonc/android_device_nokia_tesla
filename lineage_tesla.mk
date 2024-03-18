@@ -12,10 +12,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from tesla device
-$(call inherit-product, device/msft/tesla/device.mk)
+$(call inherit-product, device/nokia/tesla/device.mk)
 
 PRODUCT_NAME := lineage_tesla
 PRODUCT_DEVICE := tesla
-PRODUCT_MANUFACTURER := Microsoft
-PRODUCT_BRAND := Microsoft
+PRODUCT_MANUFACTURER := Nokia
+PRODUCT_BRAND := Nokia
 PRODUCT_MODEL := Lumia 830
