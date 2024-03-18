@@ -4,7 +4,7 @@
     "target_path": "device/linux/mainline-common"
   },
   {
-    "repository": "android_kernel_msft_tesla",
-    "target_path": "kernel/msft/tesla"
+    "repository": "android_kernel_nokia_tesla",
+    "target_path": "kernel/nokia/tesla"
   }
 ]
