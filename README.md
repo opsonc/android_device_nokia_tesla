@@ -5,3 +5,5 @@ WARNING, THIS DEVICE TREE IS NOT FINISHED AND CANNOT BE BUILT. THERE ARE STILL A
 if you want to help me out here dm me on telegram or discord @opsonc
 
 ok
+
+and also no i do not know how to flash it HOWEVER lk2nd will be needed since fastboot
