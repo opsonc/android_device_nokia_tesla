@@ -7,7 +7,7 @@
 # Inherit from mainline-common
 include device/linux/mainline-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/msft/tesla
+DEVICE_PATH := device/nokia/tesla
 
 # Architecture
 TARGET_ARCH := arm
@@ -41,8 +41,8 @@ BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_USES_GENERIC_KERNEL_IMAGE := true
-TARGET_KERNEL_SOURCE := kernel/msft/tesla
-TARGET_KERNEL_CONFIG := gki_defconfig vendor/msft/tesla_gki.config
+TARGET_KERNEL_SOURCE := kernel/nokia/tesla
+TARGET_KERNEL_CONFIG := gki_defconfig vendor/nokia/tesla_gki.config
 
 # Partitions
 # ples modify
@@ -64,7 +64,7 @@ $(foreach p, $(call to-upper, $(ALL_PARTITIONS)), \
 # Partitions - dynamic
 # ples modify
 BOARD_SUPER_PARTITION_SIZE := 9126805504 # 8.5GiB
-BOARD_SUPER_PARTITION_GROUPS := msft_dynamic_partitions
+BOARD_SUPER_PARTITION_GROUPS := nokia_dynamic_partitions
 BOARD_MSFT_DYNAMIC_PARTITIONS_PARTITION_LIST := $(ALL_PARTITIONS)
 BOARD_MSFT_DYNAMIC_PARTITIONS_SIZE := 9122611200 # (BOARD_SUPER_PARTITION_SIZE - 4MiB)
 
